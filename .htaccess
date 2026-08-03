@@ -1,0 +1,12 @@
+ErrorDocument 404 /page-404.html
+
+<IfModule mod_deflate.c>
+    <filesMatch "\.(js|css|html|php)$">
+        SetOutputFilter DEFLATE
+    </filesMatch>
+</IfModule>
+
+Redirect 301 /wedding https://wedding.peng.lovettiong.com
+Redirect /PuzzledPint /PuzzledPintCodeSheet.pdf
+Redirect /Puzzledpint /PuzzledPintCodeSheet.pdf
+Redirect /puzzledpint /PuzzledPintCodeSheet.pdf
